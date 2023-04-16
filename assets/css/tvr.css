@@ -1378,11 +1378,21 @@ reservation
 }
 
 #reservation .phone,
-#reservation .message {
+#reservation .message,
+#reservation .address {
   background-color: #fff;
   border-radius: 5px;
   text-align: center;
   padding: 0px 0px 20px 0px;
+}
+
+#reservation .address {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#reservation .address .fa {
+  color: #fb5849;
 }
 
 #reservation .phone i,
