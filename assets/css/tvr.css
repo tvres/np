@@ -1750,6 +1750,11 @@ responsive
     max-height: 250px;
   }
 
+  .Modern-Slider .item .img-fill img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
   #about .right-content {
     margin-left: 0px;
     margin-top: 30px;
